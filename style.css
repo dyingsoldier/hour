@@ -1,0 +1,31 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "JetBrains Mono";
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  color: black;
+  border-radius: 1rem;
+  width: 20rem;
+  height: 23rem;
+  padding: 1rem;
+  margin: auto;
+}
+
+img {
+  border-radius: 1rem;
+}
+
+footer {
+  text-align: cente
+}
+
+@media (width >= 20rem) {
+  section {
+    width: 18rem;
+    height: 23rem;
+  }
+}
