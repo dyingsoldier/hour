@@ -10,17 +10,27 @@ section {
   color: black;
   border-radius: 1rem;
   width: 20rem;
-  height: 23rem;
+  height: 25rem;
   padding: 1rem;
   margin: auto;
 }
 
 img {
   border-radius: 1rem;
+  width: 18rem;
+  height: 13rem;
+}
+
+img[src*="img/boatarde.jpg"],
+img[src*="img/boanoite.jpg"],
+img[src*="img/boamadrugada.jpg"]
+{
+  width: 18rem;
+  height: 15rem;
 }
 
 footer {
-  text-align: cente
+  text-align: center;
 }
 
 @media (width >= 20rem) {
